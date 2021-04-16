@@ -1,0 +1,43 @@
+Erstellen der CUL_Test-Anwendung:
+
+Neues Projekt -> MFC-Anwendung -> Name: "CUL_Test" -> OK
+Weiter
+	Unterstützung für die Dokument-/Ansicharchitektur -> Haken entfernen
+	Anwendungstyp -> Auf Dialogfeldern basierend
+	Unicode-Bibliotheken verwenden -> Haken entfernen
+	Projektstil -> MFC-Standard
+	Verwendung von MFC: MFC in einer gemeinsam genutzten DLL verwenden
+Weiter
+	Hauptrahmenstile:	Breiter Rahmen
+			Systemmenü
+Weiter
+	Erweiterte Features:
+			ActiveX-Steuerelemente -> nein
+			Allgemeines Steuerelementmanifest -> nein
+			Unterstützung für Neustartmanager -> nein
+Weiter
+	Generirte Klassen:	CCUL_TestApp
+			CCUL_TestDlg
+Fertig stellen
+
+
+			
+Beim "Edit Control" für Message Count den "Spin Control" rechts daneben folgendes einstellen:
+Im Bereich "Darstellung":
+	Wrap:		True
+Im Bereich "Verhalten":
+	Auto Buddy:	True
+	Set Buddy Integer:	True
+
+Im "Edit Control" einstellen:
+Im Bereich "Darstellung";
+	Number:		True
+
+Gleiche Einstellungen für Count von Kanal 1 und 2 einstellen
+
+Kommandozeilenargumente: 
+	Projektmappenexplorer -> Rechtsklick auf das Projekt -> Eigenschaften -> Debuggen -> Befehlsargumente
+
+In der Datei Resource.h ergänzen:
+	#define SerialReceived				WM_USER+1
+	#define SerialDataAvailable			WM_USER+2

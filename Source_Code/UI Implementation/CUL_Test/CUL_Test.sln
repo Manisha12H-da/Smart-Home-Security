@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CUL_Simulation", "CUL_Test.vcxproj", "{D986F7F4-155C-4F71-89E6-ACD252A334EE}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "..\Setup1\Setup1.vdproj", "{78CA2F78-2B8B-4A84-9C04-590A8869FBA6}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SmartHomeUI_Setup", "..\SmartHomeUI_Setup\SmartHomeUI_Setup.vdproj", "{6ADA8F01-2228-4B00-9F8B-F454802E4952}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D986F7F4-155C-4F71-89E6-ACD252A334EE}.Debug|x86.ActiveCfg = Debug|Win32
+		{D986F7F4-155C-4F71-89E6-ACD252A334EE}.Debug|x86.Build.0 = Debug|Win32
+		{D986F7F4-155C-4F71-89E6-ACD252A334EE}.Release|x86.ActiveCfg = Release|Win32
+		{D986F7F4-155C-4F71-89E6-ACD252A334EE}.Release|x86.Build.0 = Release|Win32
+		{78CA2F78-2B8B-4A84-9C04-590A8869FBA6}.Debug|x86.ActiveCfg = Debug
+		{78CA2F78-2B8B-4A84-9C04-590A8869FBA6}.Release|x86.ActiveCfg = Release
+		{6ADA8F01-2228-4B00-9F8B-F454802E4952}.Debug|x86.ActiveCfg = Debug
+		{6ADA8F01-2228-4B00-9F8B-F454802E4952}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C99CEA41-3034-4CBE-9B90-F6ABF6A99384}
+	EndGlobalSection
+EndGlobal
