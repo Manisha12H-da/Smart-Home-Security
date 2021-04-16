@@ -1,0 +1,30 @@
+﻿Build started 24-05-2020 19:01:56.
+Logging verbosity is set to: Normal.     1>Project "C:\Users\Nirmalraj\source\repos\SmartHome\smarthome\Old UI\CUL_Test\CUL_Test.vcxproj" on node 2 (Rebuild target(s)).
+     1>PrepareForBuild:
+         Creating directory "Release\CUL_Test.tlog\".
+       InitializeBuildStatus:
+         Creating "Release\CUL_Test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\HostX86\x86\CL.exe /c /I"C:\Users\pfeuffer\Documents\Visual Studio 2010\Projects\Entwicklung\gcrypt\libgcrypt_libgcrypt-1.7.4_msvc12\include" /Zi /nologo /W3 /WX- /diagnostics:column /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Release\CUL_Test.pch" /Fo"Release\\" /Fd"Release\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\HostX86\x86\CL.exe /c /I"C:\Users\pfeuffer\Documents\Visual Studio 2010\Projects\Entwicklung\gcrypt\libgcrypt_libgcrypt-1.7.4_msvc12\include" /Zi /nologo /W3 /WX- /diagnostics:column /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Release\CUL_Test.pch" /Fo"Release\\" /Fd"Release\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt ..\CUL_Monitor\Win32_Serial.cpp ..\SerialAsyncMFCTest\CulAsync.cpp CUL_Test.cpp CUL_TestDlg.cpp timedmsgbox.cpp
+         Win32_Serial.cpp
+         CulAsync.cpp
+         CUL_Test.cpp
+     1>C:\Users\Nirmalraj\source\repos\SmartHome\smarthome\Old UI\CUL_Test\CUL_TestDlg.h(29,9): fatal error C1083: Cannot open include file: 'gcrypt.h': No such file or directory
+         CUL_TestDlg.cpp
+     1>C:\Users\Nirmalraj\source\repos\SmartHome\smarthome\Old UI\CUL_Test\CUL_TestDlg.h(29,9): fatal error C1083: Cannot open include file: 'gcrypt.h': No such file or directory
+         timedmsgbox.cpp
+     1>Done Building Project "C:\Users\Nirmalraj\source\repos\SmartHome\smarthome\Old UI\CUL_Test\CUL_Test.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+       "C:\Users\Nirmalraj\source\repos\SmartHome\smarthome\Old UI\CUL_Test\CUL_Test.vcxproj" (Rebuild target) (1) ->
+       (ClCompile target) -> 
+         C:\Users\Nirmalraj\source\repos\SmartHome\smarthome\Old UI\CUL_Test\CUL_TestDlg.h(29,9): fatal error C1083: Cannot open include file: 'gcrypt.h': No such file or directory
+         C:\Users\Nirmalraj\source\repos\SmartHome\smarthome\Old UI\CUL_Test\CUL_TestDlg.h(29,9): fatal error C1083: Cannot open include file: 'gcrypt.h': No such file or directory
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:08.60
